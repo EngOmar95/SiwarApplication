@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395088783653",
+    "firebase_url": "https://swiar-2cf51.firebaseio.com",
+    "project_id": "swiar-2cf51",
+    "storage_bucket": "swiar-2cf51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395088783653:android:6cd49b76792cdd07f192cc",
+        "android_client_info": {
+          "package_name": "com.Siwar.siwar_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395088783653-relhgamiqh82rsrhbjbptuojlbgbtbfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAkakxH6WrGyYBatbFFtAno16CeQgJR-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395088783653-relhgamiqh82rsrhbjbptuojlbgbtbfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

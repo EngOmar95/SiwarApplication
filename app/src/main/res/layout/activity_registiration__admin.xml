@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    android:background="@color/ColorBase"
+    android:gravity="right"
+    tools:context="com.Siwar.siwar_application.Registiration_Admin">
+
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_chevron_left_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/logo_siwar"
+        tools:srcCompat="@drawable/logo_siwar" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="30dp"
+                android:layout_weight="@dimen/mtrl_emphasis_disabled"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/userName"
+                        android:layout_width="210dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="text"
+                        android:padding="@dimen/padding" />
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/userName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:hintEnabled="false"
+
+                        app:passwordToggleEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/passWord"
+                            android:layout_width="210dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:background="@drawable/textbox_shap"
+                            android:ems="10"
+                            android:gravity="right"
+                            android:inputType="textPassword">
+
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/passWord" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:hintEnabled="false"
+
+                        app:passwordToggleEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/Conf_passWord"
+                            android:layout_width="210dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:background="@drawable/textbox_shap"
+                            android:ems="10"
+                            android:gravity="right"
+                            android:inputType="textPassword"
+                            android:padding="@dimen/padding">
+
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/ConfPassWord" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/Fullname"
+                        android:layout_width="210dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="text"
+                        android:padding="@dimen/padding" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/FullName" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:clickable="false"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:descendantFocusability="afterDescendants"
+                    android:layerType="hardware"
+                    android:longClickable="false"
+                    android:measureWithLargestChild="false"
+                    android:orientation="horizontal"
+                    android:soundEffectsEnabled="false"
+                    android:splitMotionEvents="false"
+                    android:verticalScrollbarPosition="right">
+
+                    <LinearLayout
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/Birthday"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:background="@drawable/textbox_shap"
+                            android:ems="10"
+                            android:enabled="false"
+                            android:gravity="right"
+                            android:padding="@dimen/padding" />
+
+                        <TextView
+                            android:id="@+id/datePicker"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/textbox_shap"
+                            android:drawableRight="@drawable/ic_baseline_date_range_24"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/BrithDay" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/Email"
+                        android:layout_width="210dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/padding" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/Emil" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/number_Mang"
+                        android:layout_width="210dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="number"
+                        android:padding="@dimen/padding" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/NumberMang" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/number_School"
+                        android:layout_width="210dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="number"
+                        android:padding="@dimen/padding" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/Num_School" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/newRegistar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shap_butten2"
+                android:text="@string/Registar" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

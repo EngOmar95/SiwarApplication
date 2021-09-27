@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name" translatable="false">SIWAR</string>
+    <string name="Invalid_name">الحقل مطلوب</string>
+    <string name="Invalid_Password">"كلمة السر يجب ان تحتوي  على حرف كبير عل الاقل وحرف صغير ورقم  ولا تقل عن 8 خانات "</string>
+    <string name="Invalid_ConfPassword">"كلمة السر غير متطابقه"</string>
+    <string name="Invalid_Fullname">الرجاء ادخال الاسم الثلاثي</string>
+    <string name="Invalid_Emil">البريد الاكتروني غير صحيح</string>
+    <string name="Invalid_numberMang">"الرجاء ادخل الرقم الاداري الصحيح "</string>
+    <string name="Invalid_Phon">يجب ان يكون رقم الهاتف عشرة ارقام</string>
+    <string name="userName">اسم المستخدم :</string>
+    <string name="passWord">"الرقم السري : "</string>
+    <string name="logIn">تسجيل الدخول</string>
+    <string name="NewPassWord">كلمة السر الجديده</string>
+    <string name="ConfPassWord">تأكيد كلمة السر</string>
+    <string name="Save">حفظ</string>
+    <string name="FullName">الاسم الكامل :</string>
+    <string name="BrithDay">تاريخ الميلاد :</string>
+    <string name="Emil">"البريد الالكتروني :  "</string>
+    <string name="NumberMang">الرقم الاداري :</string>
+    <string name="SaveChang">حفظ التغييرات</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="NameChild">اسم الطفل:</string>
+    <string name="FatherName">اسم الاب:</string>
+    <string name="motherName">اسم الام :</string>
+    <string name="PhonNumber_1">رقم جوال :</string>
+    <string name="PhonNumber_2">رقم جوال بديل:</string>
+    <string name="NameSchool">اسم المدرسه</string>
+    <string name="tel">رقم الهاتف</string>
+    <string name="Address">العنوان</string>
+    <string name="EmilSchool">البريد الالكتروني</string>
+    <string name="ADD">إضافه</string>
+    <string name="userNameHint">" اسم المستخدم"</string>
+    <string name="NewRegistar">تسجيل جديد</string>
+    <string name="ForgetPassWord">هل نسيت كلمة السر؟</string>
+    <string name="Parent">"ولي الأمر "</string>
+    <string name="Mang">اداري</string>
+    <string name="LogOut">تسجيل الخروج</string>
+    <string name="Edit_info">تعديل المعلومات الشخصيه</string>
+    <string name="RegistarChild">تسجيل الطفل</string>
+    <string name="Add_Info_School">اضافة معلومات المدرسه</string>
+    <string name="Chat">المحادثات</string>
+    <string name="ScanBarcod">مسح الباركود</string>
+    <string name="ID_child">هوية الطفل :</string>
+    <string name="Registar">"تسجيل "</string>
+    <string name="Send">ارسال</string>
+    <string name="SubjectEmil">الموضوع</string>
+    <string name="Edit_passWord">"  تعديل كلمة السر"</string>
+    <string name="Display_Info">" عرض المعلومات"</string>
+    <string name="Send_notif">"  ارسال اشعارات"</string>
+    <string name="Suggestion">الاقتراحات وشكاوي</string>
+    <string name="Info_School"> معلومات المدرسه</string>
+    <string name="Num_School">رقم المدرسه:</string>
+    <string name="Result_API">Result</string>
+    <string name="admin_num_Storage">admin_num</string>
+    <string name="enterParentOrAdmin">enterParentOrAdmin</string>
+    <string name="id_child_Storage">id_child</string>
+    <string name="id_School_Storage">id_School</string>
+    <string name="Attendance">حضور الطلاب</string>
+    <string name="ok">موافق</string>
+    <string name="error_date_Birthday">تاريخ الميلاد غير صحيح</string>
+    <string name="Confirm_exit">"هل انت متاكد من تسجيل الخروج  ؟ "</string>
+    <string name="ExstIdChild">ExstIdChild</string>
+    <string name="message_exist_child">"الطفل مسجل بفعل "</string>
+    <string name="ExstNumberMang">ExstNumberMang</string>
+    <string name="message_exist_admin">"الاداري مسجل بفعل "</string>
+    <string name="noShcool">noShcool</string>
+    <string name="Message_Number_shcool_error">رقم المدرسه غير صحيح</string>
+    <string name="child_login">"دخل ابنك في الساعه: "</string>
+    <string name="child_Logout">"خرج ابنك في الساعه: "</string>
+
+
+    <string-array name="time">
+
+        <item> وقت دخول ابنك</item>
+        <item>وقت خروج ابنك</item>
+    </string-array>
+</resources>

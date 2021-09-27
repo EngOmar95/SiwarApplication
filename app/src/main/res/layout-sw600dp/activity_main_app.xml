@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92E0E1"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.MainAPP">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        tools:srcCompat="@drawable/log_siwar" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Guar_student"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/background_light"
+        android:text="ولي امر الطالب"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Admin"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/background_light"
+        android:text="اداري"
+        android:textSize="30dp" />
+
+</LinearLayout>

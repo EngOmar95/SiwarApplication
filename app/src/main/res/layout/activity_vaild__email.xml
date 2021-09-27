@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.Validation_Email">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/ColorBase"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:gravity="center"
+            android:text="@string/Edit_passWord"
+            android:textSize="@dimen/FontSize_Title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="الرقم الاداري او رقم الهويه"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Valid"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox_shap"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="الرقم الاداري او رقم الهويه"
+            android:inputType="text" />
+
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shap_butten1"
+            android:text="ادخال"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

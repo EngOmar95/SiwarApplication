@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorBase"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.MainAPP">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logo_siwar"
+        tools:srcCompat="@drawable/logo_siwar" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Guar_student"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shap_butten2"
+            android:text="@string/Parent"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/Admin"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shap_butten2"
+            android:text="@string/Mang"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

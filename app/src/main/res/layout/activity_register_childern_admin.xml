@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.Register_Childern">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#92E0E1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_baseline_person_add_24"
+            android:gravity="center"
+            android:text="@string/RegistarChild"
+            android:textSize="@dimen/FontSize_Title" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/id_child"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="number"
+                        android:padding="@dimen/padding" />
+
+                    <EditText
+                        android:id="@+id/username"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="textPersonName"
+                        android:padding="@dimen/padding" />
+
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:passwordToggleEnabled="true"
+                        android:layout_marginTop="20dp"
+                        app:hintEnabled="false">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/password_child"
+                            android:layout_width="180dp"
+                            android:layout_height="30dp"
+
+                            android:background="@drawable/textbox_shap"
+                            android:ems="10"
+                            android:gravity="right"
+                            android:inputType="textPassword"
+                            android:padding="@dimen/padding"  >
+
+                        </com.google.android.material.textfield.TextInputEditText>
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <EditText
+                        android:id="@+id/nameChild"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="text"
+                        android:padding="@dimen/padding" />
+
+
+                    <LinearLayout
+                        android:layout_width="189dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/birthday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:background="@drawable/textbox_shap"
+                            android:ems="10"
+                            android:enabled="false"
+                            android:gravity="right"
+                            android:padding="@dimen/padding" />
+
+                        <TextView
+                            android:id="@+id/datePicker"
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textbox_shap"
+                            android:drawableRight="@drawable/ic_baseline_date_range_24"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+
+                    <EditText
+                        android:id="@+id/fathername"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="text"
+                        android:padding="@dimen/padding" />
+
+                    <EditText
+                        android:id="@+id/mothername"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="text"
+                        android:padding="@dimen/padding" />
+
+                    <EditText
+                        android:id="@+id/phon"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="number"
+                        android:padding="@dimen/padding" />
+
+                    <EditText
+                        android:id="@+id/phon2"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="number"
+                        android:padding="@dimen/padding" />
+
+                    <EditText
+                        android:id="@+id/Email"
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/textbox_shap"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:inputType="textEmailAddress"
+                        android:padding="5dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="@string/ID_child"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/userName"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/passWord"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/NameChild"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/BrithDay"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/FatherName"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/motherName"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/PhonNumber_1"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/PhonNumber_2"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView73"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/Emil"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/registar_child"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/RegistarChild" />
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/Cancel" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

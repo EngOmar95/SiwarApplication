@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="#FFFFFF"
+
+    android:gravity="right"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.Main_page">
+
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_chevron_left_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+
+        app:srcCompat="@drawable/logo_siwar_2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/edit_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/Edit_info"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/register_childern"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/RegistarChild"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/info_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/Add_Info_School"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/chats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/Chat"
+                    android:textSize="25dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/scannerQR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/ScanBarcod"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/Attendance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/Attendance"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/not"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shap_butten1"
+
+                    android:gravity="center"
+                    android:hint="الأشعارات"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="@string/LogOut"
+        android:textColor="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="@dimen/mtrl_emphasis_disabled"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="عرض الاقتراحات وشكوى"
+        android:textColor="#3F51B5"
+        android:visibility="gone" />
+
+</LinearLayout>

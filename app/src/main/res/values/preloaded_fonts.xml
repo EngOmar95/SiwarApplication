@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/amiri</item>
+        <item>@font/amiri_bold</item>
+        <item>@font/asset</item>
+        <item>@font/bevan</item>
+        <item>@font/lateef</item>
+        <item>@font/reem_kufi</item>
+    </array>
+</resources>

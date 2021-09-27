@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@color/ColorBase"
+    android:gravity="right"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.log_in">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_chevron_left_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/logo_siwar" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="50dp"
+        android:layout_weight="@dimen/mtrl_emphasis_disabled"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="210dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/textbox_shap"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="@string/userNameHint"
+                android:inputType="textPersonName"
+                android:padding="@dimen/padding" />
+
+            <TextView
+                android:id="@+id/y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_baseline_person_24"
+                android:text="@string/userName"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:hintEnabled="false">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passWord"
+                    android:layout_width="210dp"
+
+                    android:layout_height="35dp"
+                    android:layout_marginRight="24dp"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/textbox_shap"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:hint="************"
+                    android:inputType="textPassword"
+                    android:padding="5dp" >
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <TextView
+                android:id="@+id/yu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_baseline_https_24"
+                android:text="@string/passWord"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/LogIn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shap_butten2"
+            android:fontFamily="sans-serif"
+            android:includeFontPadding="true"
+            android:text="@string/logIn"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="@dimen/mtrl_emphasis_disabled"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/forgetPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="@dimen/mtrl_emphasis_disabled"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/ForgetPassWord"
+            android:textColor="#3F51B5"
+            android:textColorLink="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="@dimen/mtrl_emphasis_disabled"
+            android:autoText="false"
+            android:gravity="center"
+            android:linksClickable="false"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:soundEffectsEnabled="true"
+            android:text="@string/NewRegistar"
+            android:textColor="#3F51B5"
+            android:textColorLink="#F44336"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

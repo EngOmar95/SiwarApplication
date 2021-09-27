@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.SuggestionAndcomplaints">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/ColorBase"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_baseline_emoji_people_24"
+            android:gravity="center"
+            android:text="@string/Suggestion"
+            android:textSize="@dimen/FontSize_Title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_baseline_mail_24"
+            android:padding="@dimen/padding"
+            android:text="@string/EmilSchool"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/EmailTo"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/textbox_shap"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="right"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_mode_comment_24"
+            android:padding="@dimen/padding"
+            android:text="@string/SubjectEmil"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/textbox_shap"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="right"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding"
+            android:text="@string/Suggestion" />
+
+        <EditText
+            android:id="@+id/Body"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox_shap"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="textMultiLine"
+            android:padding="@dimen/padding" />
+
+        <Button
+            android:id="@+id/send_Email"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shap_butten1"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/Send"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>

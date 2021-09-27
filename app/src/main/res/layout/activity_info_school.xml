@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.Siwar.siwar_application.Info_School">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/ColorBase"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:id="@+id/titleAc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_baseline_post_add_24"
+            android:gravity="center"
+            android:text="@string/Add_Info_School"
+            android:textSize="@dimen/FontSize_Title" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="530dp"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/NameSchool"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/nameSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textbox_shap"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="text"
+                    android:padding="@dimen/padding" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/tel"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/numberSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textbox_shap"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:padding="@dimen/padding" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/Address"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textbox_shap"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="text"
+                    android:padding="@dimen/padding" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/EmilSchool"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/EmailSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textbox_shap"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/padding" />
+
+
+                <Button
+                    android:id="@+id/add_school"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/shap_butten1"
+                    android:text="@string/ADD" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
